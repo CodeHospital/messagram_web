@@ -1,5 +1,16 @@
-
 [
+    {
+        "relation": [
+          "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+          "namespace": "android_app",
+          "package_name": "org.messagram.app",
+          "sha256_cert_fingerprints": [
+            "38:D1:C5:C6:61:BC:16:33:48:B9:03:A2:28:7E:94:E4:ED:36:01:B4:9F:D3:73:B6:13:52:B7:83:A7:46:CF:CF"
+          ]
+        }
+    },
     {
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
