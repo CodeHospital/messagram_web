@@ -309,8 +309,28 @@ nav a:hover {
 }
 
 .download-btn img {
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: auto;
+}
+
+.reviews {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.reviews h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.reviews .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.reviews .feature-card {
+    background-color: var(--primary-light);
 }
 
 /* Footer */
